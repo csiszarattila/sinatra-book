@@ -9,12 +9,12 @@ available for all major platforms:
 * [Windows][git_win]
 * [Mac OS X][git_osx]
 * Linux and BSD users can usually acquire [Git][git] through their Package
-  Management System, e.g. "apt-get install git-core" on Debian systems.
+  Management System, e.g. `apt-get install git-core` on Debian systems.
 
 After that, cloning the Sinatra repository is as easy as typing the following
 into your command line:
 
-    git clone git://github.com/bmizerany/sinatra.git
+    git clone git://github.com/sinatra/sinatra.git
 
 [git]: http://git.or.cz
 [git_win]: http://code.google.com/p/msysgit/
