@@ -9,7 +9,8 @@ These are run in Sinatra::EventContext
       # .. this code will run before each event ..
     end
 
-Handling of Rails like nested params (Sinatra <= 3.0) {#nested_params_as_filter}
+
+Handling of Rails like nested params (Sinatra <= 0.3.0) {#nested_params_as_filter}
 ------------------------------------
 If you want to use a form with parameters like this (aka. Rails' nested params):
 
@@ -19,7 +20,7 @@ If you want to use a form with parameters like this (aka. Rails' nested params):
       <input ... name="post[author]" />
     </form>
 
-You have convert parameters to a hash. You can easily do this with a before filter:
+You have to convert parameters to a hash. You can easily do this with a before filter:
 
     before do
       new_params = {}

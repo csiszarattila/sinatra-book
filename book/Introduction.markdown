@@ -17,11 +17,11 @@ It doesn't assume much about your application, apart from that:
 In Sinatra, you can write short _ad hoc_ applications or mature, larger application with the same easiness. 
 (See section "Real World Applications" later in this book.)
 
-You can use the power of various Rubygems and other libraries for Ruby available.
+You can use the power of various Rubygems and other libraries available for Ruby.
 
 Sinatra really shines when used for experiments and application mock-ups or for creating a quick interface for your code.
 
-It isn't a _typical_ Model-View-Controller framework, but ties specific URL directly to relevant Ruby code and returns it's output in response. It does enable you, however, to write clean, properly organized applications: separating _views_ from application code, for instance.
+It isn't a _typical_ Model-View-Controller framework, but ties specific URL directly to relevant Ruby code and returns its output in response. It does enable you, however, to write clean, properly organized applications: separating _views_ from application code, for instance.
 
 Installation
 ------------
@@ -40,7 +40,7 @@ _Builder_ gem (<http://builder.rubyforge.org>), which simplifies working with vi
 
 ### Living on the Edge
 
-The _edge_ version of Sinatra lives in it's Git repository, available at 
+The _edge_ version of Sinatra lives in its Git repository, available at 
 **<http://github.com/sinatra/sinatra/tree/master>**.
 
 You can use the _edge_ version to try new functionality or to contribute to the framework. 
